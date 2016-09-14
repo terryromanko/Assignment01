@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: black;
+}
+header {
+}
+header h1 {
+	text-align: center;
+	font-size: 60px;
+	color: #8b0000;
+}
+header img {
+	float: left;
+	
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 2em 7.5em;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#creatine {
+	width: 350px;
+	margin-top: 5em;
+	margin-left: 35em;
+}
+fieldset img {
+	margin-left: 70px;
+	margin-bottom: 5px;
+}
+#creatine label {
+	float: left;
+	text-align: right;
+	margin-right: 2em;
+}
+#creatine input, select {
+	background-color: red;
+}
+#submit {
+	background-color: yellow;
+	margin-left: 8em;
+}
+
+body {
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+}
+footer {
+	margin-top: 25%;
+	clear: both;
+}
+footer p {
+	text-align: center;
+	color: white;
+}
+footer a {
+	float: left;
+}
